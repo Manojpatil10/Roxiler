@@ -1,0 +1,24 @@
+.chartContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.chartHeading {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .chartContainer {
+    padding: 15px;
+  }
+
+  .chartHeading {
+    font-size: 20px;
+  }
+}

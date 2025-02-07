@@ -1,0 +1,48 @@
+.dashboardContainer {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.monthSelectorContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+.selectDropdown {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.selectDropdown:focus {
+  border-color: teal;
+  outline: none;
+}
+
+.selectDropdown option {
+  padding: 10px;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #ff5733;
+  font-weight: bold;
+  margin-top: 20px;
+}
